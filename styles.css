@@ -1,0 +1,103 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+    font-family: 'Protest Riot', sans-serif;
+}
+
+body{
+    flex-wrap: nowrap;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    height: 100vh; 
+    background-color: #4158D0;
+    background-image: linear-gradient(43deg, #4158D0 0%, #C850C0 46%, #FFCC70 100%);    
+}
+
+
+.container{
+    margin: 20px;
+    display: flex;
+    width: 400px;
+    height: 250px;
+    flex-wrap: wrap;
+    position: relative;
+    justify-content: center;
+    padding: 10px;
+    border-radius: 20px;
+    border: 2px solid rgba(0, 0, 0, 0.068);
+    justify-content: center;
+    background: rgba(255, 255, 255, 0);
+    backdrop-filter: blur(20px);
+    box-shadow:  0px 0px 10px  rgb(0, 0, 0, 0.2);
+}
+
+.container h2{
+    justify-content: end;
+    width: 100%;
+    font-size: 35px;
+    text-align: center;
+    color: white;
+    padding: 10px;
+}
+
+.container button{
+    width: 80%;
+    border-radius: 20px;
+    height: 50px;
+    margin: 0px 10px;
+    font-size: 20px;
+    border-width: 2px;
+    border-style: solid;
+    font-weight: 500;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Protest Riot', sans-serif;
+}
+
+.container a{
+    display: inline-block;
+    width: 80%;
+    border-radius: 20px;
+    height: 50px;
+    margin: 0px 10px;
+    font-size: 20px;
+    border-width: 2px;
+    border-style: solid;
+    font-weight: 500;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Protest Riot', sans-serif;
+    text-align: center;
+    padding-top: 10px;
+    text-decoration: none;
+
+}
+
+
+
+
+
+.YB{
+    background-color: rgb(174, 0, 255);
+    color: white;
+    border-color: white;
+}
+
+.YB:hover{
+    background-color: transparent;
+    border-color: rgb(214, 125, 255);
+    color: rgb(173, 92, 211);
+}
+
+
+.NB{
+    background-color: transparent;
+    color: white;
+    border-color: white;
+}
+
+.NB:hover{
+    background-color: transparent;
+    border-color: rgb(255, 0, 0);
+    color: rgb(247, 0, 0);
+}
