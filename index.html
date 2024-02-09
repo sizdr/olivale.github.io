@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles\styles.css">
+    <title>Oli vale</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Protest+Riot&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@600&family=Protest+Riot&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <h2>¿Quieres salir ser mi San Valentin?</h2>
+        <button class="NB" id="miBoton" onmouseover="desaparecer()" onmouseout="aparecer()">No</button>
+        <a class="YB" href="Si.html">Si</a>
+        <script>
+            function desaparecer() {
+            document.getElementById("miBoton").style.display = "none";
+            }
+
+            function aparecer() {
+            document.getElementById("miBoton").style.display = "inline-block";
+            }
+          </script>
+    </div>
+
+    <script>
+    function desaparecer() {
+      var boton = document.getElementById("miBoton");
+      boton.style.display = "none"; 
+    }
+
+    function reaparecer() {
+      var boton = document.getElementById("miBoton");
+      boton.style.display = "inline-block"; 
+    }
+  </script>
+</body>
+</html>
